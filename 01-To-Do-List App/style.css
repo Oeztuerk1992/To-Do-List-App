@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     color: aliceblue;
-    background-color: #1e1e1e;
+    background-color: #150451;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,14 +29,14 @@ h1.title{
 }
 
 #todo_app .todo .input:focus{
-    border: 2px solid #0c620c;
+    border: 2px solid #5731ab;
     outline: none;
 }
 
 .todo button{
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #0c620c;
+    background-color: #302162;
     color: aliceblue;
     border: none;
     cursor: pointer;
@@ -44,7 +44,7 @@ h1.title{
 }
 
 .todo button:hover{
-    background-color: #0e760e;
+    background-color: #453e81;
 }
 
 ul#todo_list {
